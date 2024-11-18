@@ -1,0 +1,16 @@
+{
+	"name": "mxjos/electroworld",
+	"type": "project",
+	"autoload": {
+		"psr-4": {
+			"Josue\\Electroworld\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Josue L.",
+			"email": "69768362+MXJosueDev@users.noreply.github.com"
+		}
+	],
+	"require": {}
+}

@@ -1,0 +1,67 @@
+$primary: #1a1a1a;
+
+// Navbar
+$navbar-light-color: white;
+$navbar-light-hover-color: gray;
+$navbar-light-active-color: gray;
+$navbar-light-brand-color: white;
+
+$navbar-light-icon-color: rgba(white, 0.55);
+
+// Fonts
+$font-family-base: 'Raleway', sans-serif;
+$headings-font-family: 'Orbitron', sans-serif;
+
+// Table
+$table-bg: inherit;
+
+main {
+	// background-image: url('../images/background.png');
+	background-color: #f1f5f9;
+	background-position: center;
+	background-size: cover;
+	// background-repeat: ;
+}
+
+#hero {
+	background-image: url('/electroworld/assets/images/hero.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#hero > div {
+	min-height: 45vh;
+
+	background-color: rgba(#000000, 0.6);
+}
+
+#searchbar > div {
+	max-width: 900px;
+}
+
+#floatingButtons {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	z-index: 1020;
+}
+
+.floatingButton {
+	aspect-ratio: 1/1;
+
+	border: 0;
+	outline: 0;
+}
+
+#refetchButton {
+	width: 80%;
+
+	color: white;
+}
+
+#addButton {
+	color: white;
+}
+
+@import '../bootstrap/bootstrap.scss';

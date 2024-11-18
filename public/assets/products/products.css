@@ -1,0 +1,25 @@
+.productOptions {
+    z-index: 1000;
+
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+
+    border: 0px;
+    outline: 0px;
+
+    border-radius: 50%;
+
+    background: transparent;
+
+    aspect-ratio: 1/1;
+}
+
+.product-description {
+    font-size: 0.9rem;
+}
+
+.productOptions>svg {
+    width: 25px;
+    height: 25px;
+}

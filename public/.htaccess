@@ -1,0 +1,5 @@
+LimitRequestBody 0  
+
+RewriteEngine On
+
+RewriteRule ^electroworld/?(.*)$ /$1
